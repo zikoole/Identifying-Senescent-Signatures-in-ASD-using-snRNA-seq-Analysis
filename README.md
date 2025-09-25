@@ -46,7 +46,7 @@ ASD-senescence/
 └── README.md
 
 ### Clone this repo
-git clone https://github.com/zikoole/ASD-senescence.git
+git clone https://github.com/zikoole/Identifying-Senescent-Signatures-in-ASD-using-snRNA-seq-Analysis.git
 cd ASD-senescence
 
 ### Environment set up
