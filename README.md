@@ -18,8 +18,8 @@ This project use Scanpy to analyze snRNA-seq data from ASD and control cortex to
 UMAP & Violin showing SASP scores (results/figures/umap_sasp.png; results/figures/violin_plots)
 Volcano showing p value and Cohen's d value (results/figures/volcano_plots)
 
-## reproducibility
-1. repo structure
+## Reproducibility
+### Repo structure
 ASD-senescence/
 │
 ├── data/                  # Input datasets (not included due to size/privacy)
@@ -45,22 +45,20 @@ ASD-senescence/
 ├── LICENSE
 └── README.md
 
-2. clone this repo
-   git clone https://github.com/zikoole/ASD-senescence.git
-   cd ASD-senescence
+### Clone this repo
+git clone https://github.com/zikoole/ASD-senescence.git
+cd ASD-senescence
 
-4. environment set up
-   conda env create -f environment.yml
-   conda activate asd-sen
+### Environment set up
+conda env create -f environment.yml
+conda activate asd-sen
 
-5. prepare data (see ##dataset for source website)
-   exprMatrix.tsv.gzip
-   meta.tsv
-   gencode.v49.primary_assembly.annotation.gtf.gz
-   SAUL_SEN_MAYO.v2025.1.Hs.gmt
+### Prepare data (see ##dataset for source website)
+exprMatrix.tsv.gzip
+meta.tsv
+gencode.v49.primary_assembly.annotation.gtf.gz
+SAUL_SEN_MAYO.v2025.1.Hs.gmt
 
-6. run analysis
-   open jupyter lab to execute notebooks in order:
-   chunkread.ipynb (load in exprmatrix)
-   asd_sen.ipynb (process data)
+### Run analysis
+open jupyter lab to execute notebooks in order: chunkread.ipynb (load in exprmatrix); then asd_sen.ipynb (process data)
 
